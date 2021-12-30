@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  RWO_PVC_SCHEDULING: "True"
+kind: ConfigMap
+metadata:
+  name: tensorboard-controller-config-bf88mm96c8
+  namespace: kubeflow
